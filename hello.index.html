@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davi manfio silva</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #FF6347, #FFD700);
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        h1 {
+            color: white;
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 4px solid white;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .link-box {
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .link-box:hover {
+            background-color: #F0E68C;
+            transform: scale(1.05);
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Davi Manfio Silva</h1>
+        <!-- Seção da foto do usuário -->
+        <div class="profile-pic">
+            <img src="C:\Users\Jessica\Desktop\foto davi.jpeg" alt="Minha Foto">
+        </div>
+        <!-- Quadrados clicáveis -->
+        <div class="link-box">
+            <a href="https://www.youtube.com/?hl=pt" target="_blank">Youtube</a>
+        </div>
+        <div class="link-box">
+            <a href="https://www.google.com.br/chrome/index.html" target="_blank">Google</a>
+        </div>
+    </div>
+</body>
+</html>
